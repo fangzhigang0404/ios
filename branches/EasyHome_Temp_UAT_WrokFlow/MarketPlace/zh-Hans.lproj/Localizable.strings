@@ -1,0 +1,798 @@
+/*
+  LocaliZable.strings
+  MarketPlace
+
+  Created by xuezy on 15/12/21.
+  Copyright © 2015年 xuezy. All rights reserved.
+*/
+
+"HomePage_key" = "设计家";
+
+"collectionKey" = "收藏";
+
+"chatKey" = "在线沟通";
+
+"designerKey" = "设计家";
+
+"communicationsKey" = "在线沟通";
+
+"needKey" = "发布设计需求";
+
+"look_for_key" = "设计师";
+
+"just_tip_call" = "拨打";
+
+"caseKey" = "案例库";
+
+"browseKey" = "浏览";
+
+"costKey" = "造价";
+
+"cityKey" = "所在城市";
+
+"worksKey" = "作品:";
+
+"famous_Key" = "擅长风格:";
+
+"fansKey" = "粉丝数";
+
+"traffickey" = "访问量";
+
+"volumekey" = "成交";
+
+"searchKey" = "搜索";
+
+"Should the management_key" = "我的应标";
+
+"self_choose_order" = "自选量房订单";
+
+"hot_search_key" = "热门搜索";
+
+"Mark Hall_key" = "应标大厅";
+
+"communication_key" = "即时通讯";
+
+"Personal Center_key" = "个人中心";
+
+"My home page_key" = "我的主页";
+
+"no_net_to_change" = "未连接网络，无法修改";
+
+"I in the eyes of consumers_key" = "消费者眼中的我";
+
+"Decoration order_key" = "我的订单";
+
+"My collection_key" = "我的收藏";
+
+"More_key" = "更多";
+
+"set meal_key" = "北舒套餐";
+
+"menKey" = "男";
+
+"wemenKey" = "女";
+
+"no_design_budget" = "尚未填写";
+
+"Id_card_Key" = "身份证";
+
+"just_tip_for_click_load_more" = "加载中...";
+
+"just_tip_for_load_more" = "点击加载更多";
+
+"just_tip_for_load_more_end" = "已为最后一条需求";
+
+"just_tip_for_load_more_over" = "加载完成!";
+
+"just_tip_status_fail" = "审核未通过";
+
+"just_tip_cancel" = "已取消";
+
+"passportKey" = "护照";
+
+"military_ID_Key" = "军官证";
+
+"OK_Key" = "确定";
+
+"no_measure_info" = "您还没有发送过量房资料";
+
+"nian" = "年";
+
+"cancel_Key" = "取消";
+
+"Designer home page_key" = "设计师主页";
+
+"Designer_key" = "设计师";
+
+"Check requirements_key" = "发布装修需求";
+
+"The order management_key" = "我的装修项目";
+
+"Log in_key" = "登录注册";
+
+"Collect putted forward_key" = "收藏案例库";
+
+"Pay attention to the designer_key" = "关注设计师";
+
+"Security center_key" = "安全中心";
+
+"feedback_key" = "意见反馈";
+
+"designer_certification" = "设计师未通过认证";
+
+"About the designer_key" = "关于设计家";
+
+"Version update_key" = "版本更新";
+
+"Log out_key" = "退出登录";
+
+"kits_key" = "套";
+
+"yuan_key" = "元/㎡";
+
+"yuan_key_yuan" = "元/㎡";
+
+"certification_key" = " V 认证";
+
+"well-known_key" = " F 知名";
+
+"quantity_key" = "邀请量房";
+
+"famouskey" = "擅长";
+
+"unauthorized_key" = "未认证";
+
+"authenticated_key" = "已认证";
+
+"Real name_key" = "真实姓名：";
+
+"gender_key" = "性别：";
+
+"The phone_key" = "电话：";
+
+"birthday_key" = "生日：";
+
+"Id number_key" = "身份证号：";
+
+"upload_key" = "上传";
+
+"The next step_key" = "下一步";
+
+"email_key" = "邮箱";
+
+"Graduate School_key" = "毕业院校：";
+
+"What learn professional_key" = "所学专业：";
+
+"Certificates and awards_key" = "证书与奖项：";
+
+"employed experience_key" = "从业经验";
+
+"Design for_key" = "设计经费：";
+
+"negotiable_key" = "面议";
+
+"Amount of room cost_key" = "量房费用：";
+
+"Good style_key" = "擅长风格:";
+
+"just_tip_good_style" = "擅长风格";
+
+"just_tip_work_year" = "从业年限";
+
+"just_tip_year" = "年";
+
+"Design expertise_key" = "设计专长：";
+
+"To introduce myself_key" = "自我介绍：";
+
+"The previous step_key" = "上一步";
+
+"Customer data_key" = "客户资料";
+
+"Name_key" = "姓名:";
+
+"Contact phone number_key" = "联系电话:";
+
+"Home address_key" = "房屋地址：";
+
+"Decorate a type_key" = "装修类型：";
+
+"Construction area of_key" = "建筑面积：";
+
+"Property type_key" = "物业类型：";
+
+"house_key" = "房型：";
+
+"Plan to decorate the date_key" = "计划装修日期";
+
+"Date of payment_key" = "交房日期：";
+
+"Like the style_key" = "喜欢风格：";
+
+"The population of permanent residents in family_key" = "家庭常住人口：";
+
+"Total budget_key" = "总预算：";
+
+"Advocate material_key" = "主材：";
+
+"decoration_key" = "装饰：";
+
+"Furniture is tonal_key" = "家具整体色调：";
+
+"complete_key" = "完成";
+
+"Head portrait_key" = "头像";
+
+"nickname_key" = "昵称";
+
+"home_key" = "所在地";
+
+"Mobile phone_key" = "手机号";
+
+"Individuality signature_key" = "个性签名";
+
+"Document type_key" = "证件类型";
+
+"Id phone_key" = "证件号码";
+
+"editor_key" = "编辑";
+
+"editor_homePage_key" = "编辑主页";
+
+"Update_Avatar_key" = "上传头像";
+
+"address_key" = "地址:";
+
+"style_key" = "房屋风格:";
+
+"Upload_photos_key" = "上传照片";
+
+"case_name_key" = "案件名:";
+
+"case_address_key" = "案件地址:";
+
+"case_style_key" = "案件风格:";
+
+"editor_name_key" = "请编辑你的姓名";
+
+"editor_address_key" = "请编辑你的地址";
+
+"editor_style_key" = "请编辑你的风格";
+
+"input_caseName_key" = "请输入你的案件名";
+
+"input_caseAddress_key" = "请输入你的案件地址";
+
+"input_caseStyle_key" = "请输入你的案件风格";
+
+"Open_camera_key" = "拍照";
+
+"photo_albums_key" = "从手机相册获取";
+
+"photo_albums_picker" = "相簿";
+
+"photo_picker_unues" = "此应用无法使用您的照片或视频。";
+
+"photo_picker_photos" = "未获得授权使用相册";
+
+"photo_picker_camera" = "未获得授权使用相机";
+
+"photo_picker_photos_setting" = "请在iOS'设置'-'隐私'-'相册'中打开";
+
+"photo_picker_camera_setting" = "请在iOS'设置'-'隐私'-'相机'中打开";
+
+"go_setting" = "去设置";
+
+"photo_picker_unues_set" = "你可以在「隐私设置」中启用存取。";
+
+"photo_picker_no_photos" = "没有照片";
+
+"photo_picker_no_photos_set" = "您可以使用 iTunes 将照片\n同步到 iPhone。";
+
+"photo_picker_num_photos" = "张照片";
+
+"photo_picker_num_photos_selected" = "已选择";
+
+"Amount of room cost_key_" = "量房费";
+
+"focus_key" = "关注";
+
+"Design_key" = "设计费";
+
+"cancel_focus_key" = "取消关注";
+
+"audio_record_reminder" = "温馨提示";
+
+"audio_record_reminder_detail" = "麦克风已关闭，无法正常使用录音功能，请授权应用打开麦克风";
+
+"room_key" = "室";
+
+"hall_key" = "厅";
+
+"toilet_key" = "卫";
+
+"The_tenderer_key" = "招标人:";
+
+"should_be_key" = "应标人数：";
+
+"should_be_standard_key" = "人应标";
+
+"province_key" = "省";
+
+"city_key" = "市";
+
+"district_key" = "区";
+
+"My_QR_Code_key" = "我的二维码";
+
+"scan_key" = "扫描";
+
+"not_mark" = "很抱歉您未中标，请再接再厉！";
+
+"bid_key" = "您已中标，请到我的订单中查看";
+
+"scan_key" = "扫描";
+
+"Open_key" = "开";
+
+"Close_key" = "关";
+
+"NetworkPrompt_key" = "网络提示";
+
+"Please check your network connection_key" = "请检查网络连接";
+
+"Currently no network_key" = "当前没有网络";
+
+"Network connection success_key" = "网络连接成功";
+
+"Using a mobile phone network_key" = "使用手机网络";
+
+"Using WIFI network_key" = "使用WIFI网络";
+
+"AudioRecorda" = "手指上划，取消发送";
+
+"AudioRecordb" = "松开手指，取消发送";
+
+"AudioRecordc" = "时间太短！";
+
+"mark_detail_key" = "应标案件详情";
+
+"Requirements_details_key" = "需求详情";
+
+"just_tip_tishi" = "提示";
+
+"just_tip_tishi_message" = "信息不完整,请完善!";
+
+"just_tip_tishi_Parameter_error" = "请求参数有误";
+
+"just_tip_tishi_success" = "发送成功";
+
+"just_tip_tishi_upload_success" = "温馨提示";
+
+"just_tip_tishi_success_message" = "提交成功，我们将会尽快为您审核需求！";
+
+"just_tip_tishi_success_order_message" = "选TA量房成功";
+
+"just_tip_tishi_name_message" = "请输入正确的姓名";
+
+"just_tip_tishi_design_message" = "请选择设计预算";
+
+"just_tip_tishi_budget_message" = "请选择装修预算";
+
+"just_tip_tishi_area_message" = "请填写正确的面积(整数部分不超过四位小数部分不超过两位)";
+
+"just_tip_tishi_phone_message" = "请输入正确的手机号码";
+
+"just_tip_tishi_address_message" = "请输入正确的小区地址(长度为二到三十二位且不包含特殊字符)";
+
+"just_title_demand_amend_message" = "修改需求";
+
+"just_title_demand_detail_message" = "需求详情";
+
+"just_label_issue_time" = "发布时间";
+
+"just_title_demand_amend_message_change" = "修改成功";
+
+"just_yuan_meter" = "元/㎡";
+
+"just_yuan_" = "元";
+
+"just_measure_need" = "已有量房资料";
+
+"just_already_end" = "已结束";
+
+"just_meter" = "平米";
+
+"just_ten_thousands" = "万元";
+
+"just_ten_order_statue" = "订单状态";
+
+"just_ten_order_statue_confirmation_measure" = "确认量房";
+
+"just_ten_order_statue_measure_end" = "量房结束";
+
+"just_back" = "返回";
+
+"just_QR_code" = "二维码";
+
+"just_QR_code_message" = "将二维码放入框内,即可自动扫描";
+
+"just_sure_delete" = "确定拒绝?";
+
+"just_cancel_need" = "终止需求";
+
+"just_sure_choose_ta" = "确定选TA量房吗?";
+
+"just_sure_delete_need" = "您确定终止需求吗?";
+
+"just_sure_delete_need_success" = "中止需求成功";
+
+"just_string_house_type" = "房屋类型";
+
+"just_string_audit_status" = "审核状态";
+
+"just_string_audit_status_not_begin" = "待审核";
+
+"just_string_success" = "成功";
+
+"just_no_cache" = "暂无缓存";
+
+"just_clear_cache_data" = "清空缓存数据";
+
+"just_clear_cache_data_button" = "清除缓存";
+
+"just_login_out" = "退出登录";
+
+"just_clear_cache" = "确定清空本地缓存数据(包括图片和语音缓存)?";
+
+"just_string_failure" = "失败";
+
+"just_string_mark_num" = "已应标人数";
+
+"just_string_demand_status" = "需求状态";
+
+"just_string_key_normal" = "正常";
+
+"just_string_Local_album" = "本地相册";
+
+"just_string_Cloud_photo_album" = "云相册";
+
+"just_check_measure_time" = "请选择量房时间";
+
+"just_string_measure_table" = "量房表单";
+
+"just_string_measure_choose_button" = "选TA量房";
+
+"just_string_Issue_over" = "已发布需求";
+
+"just_string_Demand_to_form" = "是否使用此需求填充表单";
+
+"just_seleted_time" = "请选择当前日期以后的量房时间";
+
+"just_tip_net_error" = "网络请求失败";
+
+"just_tip_choose_house_type" = "请选择房屋类型";
+
+"just_tip_choose_house_size" = "请选择户型";
+
+"just_tip_choose_renovation_style" = "请选择风格";
+
+"just_tip_choose_address" = "请选择地址";
+
+"just_tip_IM_is_not_ready" = "IM开发中...";
+
+"just_message_designer_name" = "设计师姓名";
+
+"just_message_order_id" = "订单编号";
+
+"Requirements_details_key" = "需求详情";
+
+"The name cannot be empty_key" = "姓名格式不正确(长度为二到十个汉字)";
+
+"Gender can not be empty_key" = "性别不能为空";
+
+"The phone can not be empty_key" = "电话格式不正确";
+
+"Birthday can not be empty_key" = "生日不能为空";
+
+"Identity card number cannot be empty_key" = "请输入正确的身份证号";
+
+"Photos cannot be empty_key" = "照片不能为空";
+
+"Upload photos_key" = "上传照片中";
+
+"ten_thousand_key" = "万";
+
+"The personal data_key" = "个人资料";
+
+"Identity information_key" = "身份信息";
+
+"Real memberName_key" = "真实姓名";
+
+"Mobile phone_key" = "手机";
+
+"gender_key" = "性别";
+
+"Positive upload id_key" = "身份证正面上传";
+
+"Id is opposite to upload_key" = "身份证反面上传";
+
+"Armed with id to upload_key" = "手持身份证上传";
+
+"Character is not legal_key" = "手机号码不正确";
+"Character idcard is not legal_key" = "身份证号不正确";
+
+
+"Common order" = "普通订单";
+
+"In the standard" = "应标中";
+
+"Bid_key" = "已中标";
+
+"Not winning" = "未中标";
+
+"from the end of the distance" = "距结束还有";
+
+"day_key" = "天";
+
+"designers should target" = "位设计师";
+
+"Address in detail" = "小区名称:";
+
+"Please enter a detailed address" = "请输入小区名称";
+
+"Select address" = "选择地址";
+
+"North Shu package form" = "北舒套餐表单";
+
+"OrderDetail_key" = "订单详情";
+
+"chart" = "图";
+
+"Home phone_key" = "住宅电话";
+
+"user name_key" = "用户名";
+
+"A secret_key" = "保密";
+
+"Has_been_marked" = "已应标";
+
+"End_stress" = "终止应标";
+
+"The number is full, can not be marked" = "应标人数已满，不能应标";
+
+"Visible after the successful designer" = "设计师中标后可见";
+
+"message_mj_tip_Pul_down_to_refresh" = "下拉可以刷新";
+
+"message_mj_tip_Release_immediately_refresh" = "松开立即刷新";
+
+"message_mj_tip_Refreshing_data" = "正在刷新数据中...";
+
+"message_mj_tip_today" = "今天";
+
+"message_mj_tip_Last_update" = "最后更新";
+
+"message_mj_tip_Last_update_not_logging" = "无记录";
+
+"message_mj_tip_Click_or_pull_up_to_load_more" = "点击或上拉加载更多";
+
+"message_mj_tip_Loading_more_data" = "正在加载更多的数据...";
+
+"message_mj_tip_Has_been_loaded_over" = "已经全部加载完毕";
+
+"message_mj_tip_Pull_up_can_load_more" = "上拉可以加载更多";
+
+"message_mj_tip_Release_immediately_load_more" = "松开立即加载更多";
+
+"mobile phone_key" = "电       话：";
+"Submit information_key" = "提交信息";
+"In the review_key" = "审核中";
+
+"review approved_key" = "审核通过";
+
+"just_tip_no_case" = "案例为空";
+
+"just_tip_no_case_designer" = "您还未上传案例, 请至web端上传吧! ";
+
+"just_tip_no_case_other" = "该设计师还未上传案例";
+
+"just_tip_about_info" = "设计家介绍";
+
+"just_tip_about_call" = "联系方式";
+
+"just_tip_about_copyright" = "版权说明";
+
+"just_tip_about_version" = "版本";
+
+"Upload photos request timeout_key" = "上传照片请求超时";
+"The basic information_key" = "基本信息";
+"save_key" = "保存";
+"Such as immutable_key" = "此项为不可修改项";
+"Real-name authentication_key" = "实名认证";
+
+"Send_key" = "发送";
+
+"Filechat_key" = "热点聊天";
+
+"Thread_List" = "我的聊天";
+
+"File_Thread_List" = "图片聊天";
+"Audio_Record_Message" = "按住说话";
+    
+"Audio_Record_Cancel_message" =  "松开结束";
+
+"album_cell_number_of_photos" = " 照片";
+
+"album_picker_cloud_storage_label" = "云储存";
+
+"photo_picker_source_button_label" = "资源";
+
+"photo_picker_next_label" = "完成";
+
+"certified_key" = "已认证";
+"Not audit_key" = "未审核";
+"Not through_key" = "未通过";
+
+"photo_picker_alert_view_ok" = "好";
+
+"just_tip_no_data" = "暂无数据";
+
+"just_tip_no_info" = "暂无资料";
+
+"photo_picker_alert_view_title" = "抱歉!";
+
+"photo_picker_alert_view_message" = "无法成功导入照片";
+
+"photo_picker_cloud_placeholder_text" = "请至设计家Web版上传资料";
+
+"photo_taker_alert_view_ok" = "好";
+
+"photo_taker_alert_view_title" = "抱歉!";
+
+"photo_taker_alert_view_message" = "无法拍照成功";
+
+"The message center_key" = "消息中心";
+
+"My assets_key" = "我的资产";
+
+"photo_picker_permission_alert_title" = "抱歉!";
+
+"photo_picker_permission_alert_message" = "要继续，请授予权限访问照片库";
+
+"photo_taker_permission_alert_title" = "抱歉!";
+
+"photo_taker_permission_alert_message" = "要继续，请授予权限访问相机";
+
+"MyAssets_withdraw_key" = "提现";
+
+"status_machine_error_key" = "未知状态";
+
+"Go_To_Recent_chat" = "前往最近的聊天";
+
+"Yesterday" = "昨天";
+
+"Project_Material_Title" = "项目资料";
+
+"Yesterday" = "昨天";
+
+"Today" = "今天";
+
+"beishu_name_key" = "姓       名:";
+
+"Go_To_Recent_chat" = "前往最近的聊天";
+
+"Yesterday" = "昨天";
+
+"just_decoration_budget" = "装修预算";
+
+"View_the_work_details" = "作品介绍";
+
+"Save_Submit" = "保存提交";
+
+"Project_type_3DDesign" = "3D设计方案";
+
+"Project_type_Design" = "渲染图设计";
+
+"Project_type_DesignDrawings" = "设计图纸";
+
+"Project_type_BOM" = "材料清单";
+
+"Recording_Active" = "录制活动";
+
+"Sending_Audio" = "发送音频";
+
+"Retry_send_Audio" = "重试发送音频";
+
+"I decorate a project_key" = "我的装修项目";
+
+"My order_key" = "我的订单";
+
+"sao_ma_beishu" = "请设计师扫码为您创建北舒套餐";
+
+"LOAD_EARLIER_MESSAGES" = "查看更多记录";
+
+
+// PUSH NOTIFICATION MESSAGE
+"MESSAGE_PRIVATE" = "%1$@: %2$@";
+"PRIVATE_MESSAGE_IMAGE" = "%1$@发来一张图片";
+"PRIVATE_MESSAGE_AUDIO" = "%1$@发来一段语音";
+
+"My order_key" = "我的订单";
+
+"sao_ma_beishu" = "请设计师扫码为您创建北舒套餐";
+
+"photo_taker_nocamera_alert_title" = "抱歉!";
+
+"photo_taker_nocamera_alert_message" = "不能点击的照片，没有一个摄像头";
+"Item_number_key" = "项目编号:";
+"project_address_key" = "项目地址:";
+
+"Audio" = "语音";
+
+"Image" = "图片";
+
+"Command" = "Command";
+
+"Max_Char_Limit_Reach" = "你输入的内容过长，不能超过1000字符";
+
+"I_Know" = "";
+
+"Warm prompt!Your information is_key" = "温馨提示！您的信息正在";
+
+"Warm prompt!Your information after verification_key" = "温馨提示！您的信息经审核";
+
+"Not through_key" = "不通过";
+
+"The telephone illegal!_key" = "电话号码不正确";
+
+"Id not legal!_key" = "身份证号不正确";
+
+"Pay" = "量房费用";
+
+"Measure" = "查看量房";
+
+"Contract" = "设计合同";
+
+"Deliver" = "量房交付";
+
+"FinalPay" = "设计尾款";
+
+"UploadDeliver" = "上传交付物";
+
+"DownloadDeliver" = "接收交付物";
+
+"My_news" = "我的消息";
+
+"I_want_to_be_marked" = "我要应标";
+
+"Not binding mobile phone_key" = "未绑定手机";
+
+"Unbounded email_key" = "未绑定邮箱";
+
+"Input contains Chinese characters_key" = "量房费格式不正确(整数部分不超过四位小数部分不超过两位)";
+
+"The function development_key" = "功能开发中,敬请期待";
+
+"Qr code format error_key" = "二维码格式错误,无法创建北舒订单.";
+
+"Please sweep the yard_key" = "请扫码";
+
+"Literature review_key" = "资料审核";
+
+"The information in the audit_key" = "信息审核中";
+
+"Data has been sent_key" = "资料已送出，请耐心等待审核！";
+
+"Information is under review_key" = "资料正在审核中，请耐心等待！";
+
+"Data is empty_key" = "资料为空";
+
+"just_no_find" = "抱歉,未找到符合添加的内容!";
+
+"just_create_sucees" = "创建成功";
+
+"just_order_detail_chack" = "请在我的订单中查看详情";
+
+"just_no_order" = "您还没有订单项目，请去应标大厅接单";

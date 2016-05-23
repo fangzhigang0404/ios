@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "元"; ObjectID = "0Qd-zs-evi"; */
+"0Qd-zs-evi.text" = "yuan";
+
+/* Class = "UIButton"; normalTitle = "提现"; ObjectID = "5by-WJ-VuQ"; */
+"5by-WJ-VuQ.normalTitle" = "Withdraw";
+
+/* Class = "UILabel"; text = "元"; ObjectID = "BkK-9B-ek4"; */
+"BkK-9B-ek4.text" = "yuan";
+
+/* Class = "UILabel"; text = "¥30,000"; ObjectID = "CzP-eg-Bvl"; */
+"CzP-eg-Bvl.text" = "";
+
+/* Class = "UILabel"; text = "提现记录"; ObjectID = "Mv7-PE-lHk"; */
+"Mv7-PE-lHk.text" = "Withdraw Record";
+
+/* Class = "UILabel"; text = "担保金额："; ObjectID = "Zd3-HX-C6i"; */
+"Zd3-HX-C6i.text" = "Amount Guaranteed：";
+
+/* Class = "UILabel"; text = "¥30,000"; ObjectID = "jf1-Ti-JiS"; */
+"jf1-Ti-JiS.text" = "";
+
+/* Class = "UILabel"; text = "交易记录"; ObjectID = "nG9-70-NMq"; */
+"nG9-70-NMq.text" = "Deal Record";
+
+/* Class = "UILabel"; text = "账户余额："; ObjectID = "slJ-dl-V7e"; */
+"slJ-dl-V7e.text" = "Balance：";

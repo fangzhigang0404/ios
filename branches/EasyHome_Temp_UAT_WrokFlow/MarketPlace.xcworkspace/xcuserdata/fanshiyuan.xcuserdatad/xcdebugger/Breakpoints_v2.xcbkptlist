@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketPlace/MPToolsManager/MPTools/MPPhotoPicker/MPPhotoAlbumPickerViewController.m"
+            timestampString = "482400110.866026"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "-initSourceModels"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketPlace/MPToolsManager/MPTools/MPAPIServer/MPAPI/MPAPI.m"
+            timestampString = "482400392.546"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1146"
+            endingLineNumber = "1146"
+            landmarkName = "-getCloudFilesForNeedId:success:failure:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketPlace/MPToolsManager/MPTools/MPAPIServer/MPAPI/MPAPI.m"
+            timestampString = "482400394.058015"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1158"
+            endingLineNumber = "1158"
+            landmarkName = "-getCloudFilesForNeedId:success:failure:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__61+[MPAPI getProjectMaterialsForNeedId:header:success:failure:]_block_invoke708"
+                  moduleName = "MarketPlace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanshiyuan/Desktop/Lee/EasyHome_Temp_UAT_WrokFlow/MarketPlace/MPToolsManager/MPTools/MPAPIServer/MPAPI/MPAPI.m"
+                  timestampString = "484032854.601831"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1158"
+                  endingLineNumber = "1158"
+                  offsetFromSymbolStart = "123">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_709"
+                  moduleName = "MarketPlace"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanshiyuan/Desktop/Lee/EasyHome_Temp_UAT_WrokFlow/MarketPlace/MPToolsManager/MPTools/MPAPIServer/MPAPI/MPAPI.m"
+                  timestampString = "484032854.602038"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketPlace/MPClasses/MPChat/Chats/ChatRoom/MPChatRoomViewController.m"
+            timestampString = "482405857.745961"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "-getMediaMessageUnreadCount"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MarketPlace/MPClasses/MPChat/Chats/ChatRoom/MPChatRoomViewController.m"
+            timestampString = "482406595.130041"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "-updateCustomButton"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

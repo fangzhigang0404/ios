@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>detailTitle</key>
+		<string>查看量房邀请，并确认要去量房</string>
+		<key>title</key>
+		<string>确认量房</string>
+		<key>imageName</key>
+		<string>num1</string>
+	</dict>
+	<dict>
+		<key>detailTitle</key>
+		<string>等待业主支付量房费</string>
+		<key>title</key>
+		<string>接收量房费用</string>
+		<key>imageName</key>
+		<string>num2</string>
+	</dict>
+	<dict>
+		<key>detailTitle</key>
+		<string>创建设计合同并发给业主</string>
+		<key>title</key>
+		<string>创建设计合同</string>
+		<key>imageName</key>
+		<string>num3</string>
+	</dict>
+	<dict>
+		<key>detailTitle</key>
+		<string>等待业主支付设计首款</string>
+		<key>title</key>
+		<string>接收设计首款</string>
+		<key>imageName</key>
+		<string>num4</string>
+	</dict>
+	<dict>
+		<key>detailTitle</key>
+		<string>等待业主支付设计尾款</string>
+		<key>title</key>
+		<string>接收设计尾款</string>
+		<key>imageName</key>
+		<string>num5</string>
+	</dict>
+	<dict>
+		<key>detailTitle</key>
+		<string>上传最终版的设计交付物</string>
+		<key>title</key>
+		<string>上传设计交付物</string>
+		<key>imageName</key>
+		<string>num6</string>
+	</dict>
+</array>
+</plist>

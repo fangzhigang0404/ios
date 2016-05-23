@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MPPhotoAlbumPickerViewController">
+            <connections>
+                <outlet property="sourceListView" destination="U6o-iL-zOG" id="nGf-4e-IGd"/>
+                <outlet property="sourceListViewBottomConstraint" destination="BHd-27-dX0" id="8eQ-6a-Dck"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="U6o-iL-zOG" userLabel="Source List View">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="PrT-cn-r8r"/>
+                        <outlet property="delegate" destination="-1" id="RWa-hP-gc8"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="U6o-iL-zOG" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="8Ub-Ry-lkF"/>
+                <constraint firstItem="U6o-iL-zOG" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="BHd-27-dX0"/>
+                <constraint firstItem="U6o-iL-zOG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Eng-1U-aP5"/>
+                <constraint firstItem="U6o-iL-zOG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wzS-bk-hqz"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MPCloudPhotoAlbumCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="138" id="KGk-i7-Jjw" customClass="MPCloudPhotoAlbumCell">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="209"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="208"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="noy-1i-Qzf" userLabel="Photo Source Thumbnail">
+                        <rect key="frame" x="28" y="26" width="156" height="156"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="noy-1i-Qzf" secondAttribute="height" multiplier="1:1" id="Mcc-KW-k6r"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CqR-ds-yyB" userLabel="Source Title">
+                        <rect key="frame" x="214" y="94" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tXd-At-dHf" userLabel="Cloud Badge">
+                        <rect key="frame" x="-3" y="-5" width="62" height="62"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FPl-Ck-ssC" userLabel="Selected Indicator">
+                        <rect key="frame" x="296" y="89" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="OsP-7j-GxP"/>
+                            <constraint firstAttribute="width" constant="30" id="oB1-Vc-sFU"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="FPl-Ck-ssC" secondAttribute="trailing" constant="20" id="15B-VR-KVX"/>
+                    <constraint firstItem="tXd-At-dHf" firstAttribute="centerY" secondItem="noy-1i-Qzf" secondAttribute="top" id="494-W3-YRs"/>
+                    <constraint firstItem="noy-1i-Qzf" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.75" id="7kL-g5-Sq0"/>
+                    <constraint firstItem="noy-1i-Qzf" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="P4H-3p-XeJ"/>
+                    <constraint firstItem="tXd-At-dHf" firstAttribute="width" secondItem="noy-1i-Qzf" secondAttribute="width" multiplier="0.4" id="PFC-fi-NTD"/>
+                    <constraint firstItem="noy-1i-Qzf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="S1q-Wr-mmz"/>
+                    <constraint firstItem="CqR-ds-yyB" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ejM-nH-7eh"/>
+                    <constraint firstItem="tXd-At-dHf" firstAttribute="height" secondItem="noy-1i-Qzf" secondAttribute="height" multiplier="0.4" id="jzT-XJ-KAX"/>
+                    <constraint firstItem="FPl-Ck-ssC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ogq-gD-Fef"/>
+                    <constraint firstItem="tXd-At-dHf" firstAttribute="centerX" secondItem="noy-1i-Qzf" secondAttribute="leading" id="xaO-V1-njE"/>
+                    <constraint firstItem="CqR-ds-yyB" firstAttribute="leading" secondItem="noy-1i-Qzf" secondAttribute="trailing" constant="30" id="xdJ-IU-G5o"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cloudBadge" destination="tXd-At-dHf" id="bbp-Yl-bP5"/>
+                <outlet property="photoSourceThumbnail" destination="noy-1i-Qzf" id="GZv-94-HJ6"/>
+                <outlet property="selectedIndicator" destination="FPl-Ck-ssC" id="n15-i2-56p"/>
+                <outlet property="sourceTitle" destination="CqR-ds-yyB" id="OMk-om-bpU"/>
+            </connections>
+            <point key="canvasLocation" x="73" y="607.5"/>
+        </tableViewCell>
+    </objects>
+</document>

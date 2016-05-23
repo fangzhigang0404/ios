@@ -1,0 +1,784 @@
+/*
+ LocaliZable.strings
+ MarketPlace
+ 
+ Created by xuezy on 15/12/21.
+ Copyright © 2015年 xuezy. All rights reserved.
+ */
+"HomePage_key" = "Shejijia";
+
+"collectionKey" = "collection";                 //!< 收藏.
+
+"chatKey" = "chat";                             //在线沟通
+
+"designerKey" = "Designer";                     //设计家
+
+"just_tip_call" = "Call";
+
+"communicationsKey" = "On-line communications"; //在线沟通（列表页标题）
+
+"nian" = "year";
+
+"just_tip_no_info" = "no info";
+
+"no_net_to_change" = "Not connected to the network, can not be modified";
+
+"no_design_budget" = "No Design Budget";
+
+"needKey" = "I want to decorate";                   //发布需求
+
+"look_for_key" = "Looking for a designer";      //找设计师
+
+"no_measure_info" = "You haven't sent the measure housing information";
+
+"caseKey" = "Case Base";                        //案例库
+
+"browseKey" = "Browse";                         //!< 浏览.
+
+"costKey" = "Cost";                             //!< 造价.
+
+"cityKey" = "City";                             //!< 所在城市.
+
+"worksKey" = "Works";                           //!< 作品.
+
+"famous_Key" = "Famous";                        //!< 擅长空间
+
+"fansKey" = "Fans";                             //!< 粉丝数
+
+"traffickey" = "Traffic";                       //!< 访问量
+
+"volumekey" = "Volume";                         //!<成交量
+
+"searchKey" = "Search";
+
+"hot_search_key" = "Hot Search";                //!热门搜索
+
+"Mark Hall_key" = "Mark Hall";                  //!应标大厅
+
+"communication_key" = "communication";          //!及时沟通
+
+"Personal Center_key" = "Personal Center";       //!个人中心
+
+"My home page_key" = "My home page";            //!我的主页
+
+"I in the eyes of consumers _key" = "I in the eyes of consumers"; //!消费者眼中的我
+
+"My collection_key" = "My collection";          //! 我的收藏
+
+"More_key" = "More";                            //!更多
+
+"set meal_key" = "set meal";                     //!北舒套餐=======
+
+"menKey" = "men";
+
+"wemenKey" = "wenmen";
+
+"just_tip_no_data" = "No Data";
+
+"Id_card_Key" = "Id card";
+
+"passportKey" = "Passport";
+
+"military_ID_Key" = "Military ID";
+
+"OK_Key" = "OK";
+
+"cancel_Key" = "Cancel";
+
+"I in the eyes of consumers_key" = "I in the eyes of consumers";
+
+"Decoration order_key" = "My order";
+
+"Designer home page_key" = "Designer home page";
+
+"Designer_key" = "Designer";
+
+"kits_key" = "kits";
+
+"yuan_key" = "yuan/㎡";
+
+"yuan_key_yuan" = "yuan";
+
+"just_already_end" = "Is End";
+
+"just_tip_year" = "years";
+
+"just_tip_for_click_load_more" = "click to load more data";
+
+"just_tip_for_click_load_more" = "loading...";
+
+"just_tip_for_load_more_end" = "No more data";
+
+"just_tip_for_load_more_over" = "Load over.";
+
+"just_tip_status_fail" = " Audit not passed ";
+
+"just_tip_cancel" = " Has been canceled ";
+
+"just_tip_no_case" = "no case";
+
+"just_tip_no_case_designer" = " You have not uploaded the case, please upload it to the web side! ";
+
+"just_tip_no_case_other" = " The designer has not yet uploaded case ";
+
+"just_tip_about_info" = "Shejijia Introduce";
+
+"just_tip_about_call" = "Call";
+
+"just_tip_about_copyright" = "Copyright Description";
+
+"just_tip_about_version" = "Version";
+
+"certification_key" = " V Certification";
+
+"well-known_key" = " F well-known";
+
+"quantity_key" = "Invitation quantity";
+
+"Should the management_key" = "Should the management";
+
+"Should the management_key" = "My mark";
+
+"Check requirements_key" = "Demand for decoration";
+
+"The order management_key" = "I decorate";
+
+"Log in_key" = "Log in";
+
+"Collect putted forward_key" = "Collect putted forward";
+
+"Pay attention to the designer_key" = "Pay attention to the designer";
+
+"Security center_key" = "Security center";
+
+"feedback_key" = "feedback";
+
+"About the designer_key" = "About the designer";
+
+"designer_certification" = " The designer has not passed the certification.";
+
+"Version update_key" = "Version update";
+
+"Log out_key" = "Log out";
+
+"Real name_key" = "Real name";
+
+"gender_key" = "sex";
+
+"The phone_key" = "The phone";
+
+"birthday_key" = "birthday";
+
+"Id number_key" = "Id number";
+
+"upload_key" = "upload";
+
+"The next step_key" = "The next step";
+
+"email_key" = "E-mail";
+
+"Graduate School_key" = "Graduate School";
+
+"What learn professional_key" = "What learn professional";
+
+"Certificates and awards_key" = "Certificates and awards";
+
+"employed experience_key" = "employed experience";
+
+"Design for_key" = "Design for";
+
+"negotiable_key" = "negotiable";
+
+"Amount of room cost_key" = "Amount of room cost";
+
+"Good style_key" = "Good style";
+
+"Design expertise_key" = "Design expertise";
+
+"To introduce myself_key" = "To introduce myself";
+
+"The previous step_key" = "The previous step";
+
+"Customer data_key" = "Customer data";
+
+"Name_key" = "Name";
+
+"Contact phone number_key" = "Contact phone number";
+
+"Home address_key" = "Home address";
+
+"Decorate a type_key" = "Decorate a type";
+
+"Construction area of_key" = "Construction area of";
+
+"Property type_key" = "Property type";
+
+"house_key" = "room";
+
+"Plan to decorate the date_key" = "Plan to decorate the date";
+
+"Date of payment_key" = "Date of payment";
+
+"Like the style_key" = "Like the style";
+
+"The population of permanent residents in family_key" = "The population of permanent residents in family";
+
+"Total budget_key" = "Total budget";
+
+"Advocate material_key" = "Advocate material";
+
+"decoration_key" = "decoration";
+
+"Furniture is tonal_key" = "Furniture is tonal";
+
+"complete_key" = "Done";
+
+"Head portrait_key" = "Head portrait";
+
+"nickname_key" = "nickName";
+
+"home_key" = "home";
+
+"Mobile phone_key" = "Mobile phone";
+
+"Individuality signature_key" = "Individuality signature";
+
+"Document type_key" = "Document type";
+
+"Id phone_key" = "Id phone";
+
+"famouskey" = "Famous";
+
+"self_choose_order" = "Choose Measure order";
+
+"unauthorized_key" = "Unauthorized";
+
+"authenticated_key" = "Authenticated";
+
+"editor_key" = "Editor";
+
+"editor_homePage_key" = "Editor home page";
+
+"Update_Avatar_key" = "Update avatar";
+
+"address_key" = "Address:";
+
+"style_key" = "Style:";
+
+"Upload_photos_key" = "Upload photos";
+
+"case_name_key" = "Case name:";
+
+"case_address_key" = "Case address:";
+
+"case_style_key" = "Case style:";
+
+"editor_name_key" = "Edit your name, please";
+
+"editor_address_key" = "Please edit your address";
+
+"editor_style_key" = "Please edit your style";
+
+"input_caseName_key" = "Please enter the name your case";
+
+"input_caseAddress_key" = "Please enter the address of your case";
+
+"input_caseStyle_key" = "Please enter your case style";
+
+"Open_camera_key" = "take photo";
+
+"photo_albums_key" = "From a mobile phone photo albums";
+
+"Amount of room cost_key_" = "Amount of room cost";
+
+"Design_key" = "Design";
+
+"focus_key" = "Focus";
+
+"cancel_focus_key" = "unfollow";
+
+"photo_albums_key" = "From a mobile phone photo albums";
+
+"room_key" = "room";
+
+"hall_key" = "hall";
+
+"just_no_cache" = "No Cache";
+
+"just_clear_cache" = "Are you sure to clear local cache data (including pictures and voice cache)?";
+
+"just_clear_cache_data" = "Clear cache data";
+
+"just_clear_cache_data_button" = "Clear Cache";
+
+"just_login_out" = "Login Out";
+
+"toilet_key" = "toilet";
+
+"The_tenderer_key" = "The tenderer:";
+
+"should_be_key" = "";
+
+"should_be_standard_key" = "people should be standard";
+
+"province_key" = "province";
+
+"city_key" = "city";
+
+"district_key" = "district";
+
+"My_QR_Code_key" = "My qr code";
+
+"scan_key" = "Scan";
+
+"not_mark" = "Sorry, you are not successful, continue";
+
+"bid_key" = "You have won the bid, please go to my project to view";
+
+"NetworkPrompt_key" = "NetworkPrompt";
+
+"Open_key" = "Open";
+
+"Close_key" = "Close";
+
+"NetworkPrompt_key" = "NetworkPrompt";
+
+"Please check your network connection_key" = "Please check your network connection";
+
+"Currently no network_key" = "Currently no network";
+
+"Network connection success_key" = "Network connection success";
+
+"Using a mobile phone network_key" = "Using a mobile phone network";
+
+"Using WIFI network_key" = "Using WIFI network";
+
+"AudioRecorda" = "Finger stroke, cancel sending";
+
+"AudioRecordb" = "Loosen finger, cancel sending";
+
+"AudioRecordc" = "Time is too short !";
+
+"mark_detail_key" = "Details of the case in case of";
+
+"Requirements_details_key" = "Requirements details";
+
+"just_tip_tishi" = "Reminder";
+
+"just_tip_tishi_message" = "Information is not complete, please perfect!";
+
+"just_tip_tishi_success" = "issued successfully";
+
+"just_tip_tishi_success_message" = "Congratulations on your success, please go to the personal center of the decoration to see.";
+
+"just_tip_tishi_success_order_message" = "Choose Success!";
+
+"just_back" = "Back";
+
+"just_sure_choose_ta" = "Choose Ta To Measure?";
+
+"just_QR_code" = "QRCode";
+
+"just_QR_code_message" = "The two-dimensional code into the box, you can automatically scan";
+
+"just_tip_tishi_name_message" = "Please enter the correct name.";
+
+"just_tip_tishi_budget_message" = "Please choose decoration budget.";
+
+"just_tip_tishi_design_message" = "Please choose design budget.";
+
+"just_tip_tishi_area_message" = "Please enter the correct housing area";
+
+"just_tip_tishi_phone_message" = "Please enter the correct cell phone number.";
+
+"just_tip_tishi_address_message" = "Please enter the neighbourhoods.";
+
+"just_title_demand_amend_message" = "Amend Demand";
+
+"just_title_demand_detail_message" = "Demand Detail";
+
+"just_label_issue_time" = "Issue Time";
+
+"just_title_demand_amend_message_change" = "Successful modification";
+
+"just_yuan_meter" = "yuan/meter";
+
+"just_sure_delete" = "Are you sure you want to refuse?";
+
+"just_cancel_need" = "Cancel Demand";
+
+"just_sure_delete_need_success" = "Cancel Demand Success!";
+
+"just_sure_delete_need" = "Are you sure you need to end the demand?";
+
+"just_string_house_type" = "House Tpye";
+
+"just_string_audit_status" = "Audit Status";
+
+"just_string_audit_status_not_begin" = "Pending audit";
+
+"just_string_success" = "success";
+
+"just_string_failure" = "failure";
+
+"just_string_mark_num" = "number of interested Designer";
+
+"just_string_demand_status" = "Demand Status";
+
+"just_check_measure_time" = "Pleasure choose measure time";
+
+"just_string_key_normal" = "Normal";
+
+"just_string_Local_album" = "Local Album";
+
+"just_string_Cloud_photo_album" = "Cloud Photo Album";
+
+"just_string_measure_table" = "Measure House Type";
+
+"just_message_check_detail" = "Please enter the correct remarks";
+
+"just_string_measure_choose_button" = "Choose Measure";
+
+"just_string_Issue_over" = "Demand Issued";
+
+"just_string_Demand_to_form" = "Use this demand to fill in the form";
+
+"just_tip_net_error" = "Network request failed";
+
+"just_tip_choose_house_type" = "Please choose house type";
+
+"just_tip_choose_house_size" = "Please choose house size";
+
+"just_tip_choose_renovation_style" = "Please choose renovation style";
+
+"just_tip_choose_address" = "Please choose address";
+
+"just_tip_IM_is_not_ready" = "IM is not ready...";
+
+"just_message_designer_name" = "Designer Name";
+
+"just_message_order_id" = "Order Id";
+
+"just_meter" = "meter";
+
+"just_tip_tishi_Parameter_error" = "Request Parameter Error";
+
+"just_ten_thousands" = "ten_thousands";
+
+"just_ten_order_statue" = "Order_Status";
+
+"just_ten_order_statue_confirmation_measure" = "Confirmation Measure";
+
+"just_ten_order_statue_measure_end" = "Measure End";
+
+"just_yuan_" = "yuan";
+
+"just_measure_need" = "Existing demand";
+
+"just_seleted_time" = "Please select the time after the current date.";
+
+"just_tip_good_style" = "Good Styles";
+
+"just_tip_work_year" = "Working Years";
+
+"Requirements_details_key" = "Requirements details";
+
+"The name cannot be empty_key" = "The name cannot be empty";
+
+"Gender can not be empty_key" = "Gender can not be empty";
+
+"The phone can not be empty_key" = "The phone can not be empty";
+
+"Birthday can not be empty_key" = "Birthday can not be empty";
+
+"Identity card number cannot be empty_key" = "Identity card number cannot be empty";
+
+"Photos cannot be empty_key" = "Photos cannot be empty";
+
+"Upload photos_key" = "Upload photos";
+
+"ten_thousand_key" = "ten thousand";
+
+"The personal data_key" = "The personal data";
+
+"Identity information_key" = "Identity information";
+
+"Real memberName_key" = "Real memberName";
+
+"Mobile phone_key" = "Mobile phone";
+
+"Common order" = "Common order";
+
+"In the standard" = "In the standard";
+
+"Bid_key" = "Bid";
+
+"Not winning" = "Not winning";
+
+"from the end of the distance" = "There are";
+
+"day_key" = " days from the end of the distance";
+
+"designers should target" = "designers should target";
+
+"Address in detail" = "Community name";
+
+"Please enter a detailed address" = "Please enter a detailed address";
+
+"Select address" = "Select address";
+
+"North Shu package form" = "North Shu package form";
+
+"Mobile phone_key" = "Mobile phone";
+
+"gender_key" = "gender";
+
+"Positive upload id_key" = "Positive upload id";
+
+"Id is opposite to upload_key" = "Id is opposite to upload";
+
+"Armed with id to upload_key" = "Armed with id to upload";
+
+"Character is not legal_key" = "Character is not legal";
+
+"OrderDetail_key" = "OrderDetail";
+
+"chart" = "chart";
+
+"Home phone_key" = "Home phone";
+
+"user name_key" = "user name";
+
+"A secret_key" = "A secret";
+
+"Has_been_marked" = "Has been marked";
+
+"End_stress" = "End stress";
+
+"The number is full, can not be marked" = "The number is full, can not be marked";
+
+"Visible after the successful designer" = "Visible after the successful designer";
+
+"message_mj_tip_Pul_down_to_refresh" = "Pull down to refresh";
+
+"message_mj_tip_Release_immediately_refresh" = "Release immediately refresh";
+
+"message_mj_tip_Refreshing_data" = "Refreshing data...";
+
+"message_mj_tip_today" = "Today";
+
+"message_mj_tip_Last_update" = "Last update";
+
+"message_mj_tip_Last_update_not_logging" = "no logging";
+
+"message_mj_tip_Click_or_pull_up_to_load_more" = "Click or pull up to load_more";
+
+"message_mj_tip_Loading_more_data" = "Loading more data...";
+
+"message_mj_tip_Has_been_loaded_over" = "Has been loaded over";
+
+"message_mj_tip_Pull_up_can_load_more" = "Pull up can load more";
+
+"message_mj_tip_Release_immediately_load_more" = "Release immediately load more";
+"mobile phone_key" = "mobile phone";
+"Submit information_key" = "Submit information";
+"In the review_key" = "In the review";
+"review approved_key" = "review approved";
+"Upload photos request timeout_key" = "Upload photos request timeout";
+"The basic information_key" = "The basic information";
+"save_key" = "save";
+"Such as immutable_key" = "Such as immutable";
+"Character idcard is not legal_key" = "Character idcard is not legal";
+"Real-name authentication_key" = "Real-name authentication";
+
+"Send_key" = "Send";
+"Filechat_key" = "Content based chat";
+
+"Thread_List" = "My chat";
+
+"File_Thread_List" = "File Thread List";
+"Audio_Record_Message" = "Press and hold to talk";
+
+"Audio_Record_Cancel_message" =  "Cancel to move outside";
+
+"album_cell_number_of_photos" = " photos";
+
+"album_picker_cloud_storage_label" = "Cloud Storage";
+
+"photo_picker_source_button_label" = "Source";
+
+"photo_picker_next_label" = "Send";
+
+"certified_key" = "certified";
+
+"Not audit_key" = "Not audit";
+
+"Not through_key" = "Not through";
+
+"photo_picker_next_label" = "Next";
+
+"photo_picker_photos" = "Unauthorized use photo album";
+
+"photo_picker_camera" = "Unauthorized use camera";
+
+"photo_picker_photos_setting" = "Please open it in'steeing'-'Privacy'-'Photo'";
+
+"photo_picker_camera_setting" = "Please open it in'steeing'-'Privacy'-'Camera'";
+
+"go_setting" = "Go";
+
+"photo_picker_alert_view_ok" = "OK";
+
+"photo_picker_alert_view_title" = "Sorry!";
+
+"photo_picker_alert_view_message" = "Could not import photo succesfully";
+
+"photo_picker_cloud_placeholder_text" = "To upload photos, please go to the Web";
+
+"photo_taker_alert_view_ok" = "OK";
+
+"photo_taker_alert_view_title" = "Sorry!";
+
+"photo_taker_alert_view_message" = "Could not take photo succesfully";
+
+
+"The message center_key" = "The message center";
+
+"My assets_key" = "My assets";
+
+"photo_picker_permission_alert_title" = "Sorry!";
+
+"photo_picker_permission_alert_message" = "To proceed, please grant access to the Photo library";
+
+"photo_taker_permission_alert_title" = "Sorry!";
+
+"photo_taker_permission_alert_message" = "To proceed, please grant access to the Camera";
+
+"MyAssets_withdraw_key" = "Withdraw";
+
+"status_machine_error_key" = "No Status";
+
+"Go_To_Recent_chat" = "Go to the recent chat";
+
+"Yesterday" = "Yesterday";
+
+"Project_Material_Title" = "Project Information";
+"Yesterday" = "Yesterday";
+
+"Today" = "Today";
+"beishu_name_key" = "name";
+"Go_To_Recent_chat" = "Go to the recent chat";
+
+"Yesterday" = "Yesterday";
+
+"just_decoration_budget" = "decoration budget";
+
+"View_the_work_details" = "Introduction of works";
+
+"Save_Submit" = "Save Submit";
+
+// I am not sure about adding these strings here. Check whether these will come from App server or not
+"Project_type_3DDesign" = "3D Design";
+
+"Project_type_Design" = "Design";
+
+"Project_type_DesignDrawings" = "Design Drawings";
+
+"Project_type_BOM" = "Bill of Materials";
+
+"just_tip_tishi_upload_success" = "Saved successfully!";
+
+"Recording_Active" = "Recording Active";
+
+"Sending_Audio" = "Sending Audio";
+
+"LOAD_EARLIER_MESSAGES" = "LOAD EARLIER MESSAGES";
+
+"Retry_send_Audio" = "Retry send Audio";
+
+"I decorate a project_key" = "I decorate a project";
+"My order_key" = "My order";
+
+"sao_ma_beishu" = "Please designer scan code for you to create the bei shu package";
+
+// PUSH NOTIFICATION MESSAGE
+"MESSAGE_PRIVATE" = "%1$@: %2$@";
+"PRIVATE_MESSAGE_IMAGE" = "%1$@I sent a picture";
+"PRIVATE_MESSAGE_AUDIO" = "%1$@Sent a voice";
+
+
+"sao_ma_beishu" = "Please designer scan code for you to create the bei shu package";
+
+
+"photo_taker_nocamera_alert_title" = "Sorry!";
+
+"photo_taker_nocamera_alert_message" = "Photos cannot be clicked without a camera";
+
+"Item_number_key" = "Item number:";
+"project_address_key" = "project address:";
+
+"Audio" = "Audio";
+
+"Image" = "Image";
+
+"Command" = "Command";
+
+"Max_Char_Limit_Reach" = "Your input is too long , not exceed 1000 characters";
+
+"Warm prompt!Your information is_key" = "Warm prompt!Your information is";
+
+"Warm prompt!Your information after verification_key" = "Warm prompt!Your information after verification";
+
+"Not through_key" = "Not through";
+
+"The telephone illegal!_key" = "The telephone illegal!";
+
+"Id not legal!_key" = "Id not legal!";
+
+"Pay" = "Pay";
+
+"Measure" = "Measure";
+
+"Contract" = "Contract";
+
+"Deliver" = "Deliver";
+
+"UploadDeliver" = "UploadDeliver";
+
+"DownloadDeliver" = "DownloadDeliver";
+
+"My_news" = "My news";
+
+"FinalPay" = "FinalPay";
+
+"I_want_to_be_marked" = "I want to be marked";
+
+"Not binding mobile phone_key" = "Not binding mobile phone";
+
+"Unbounded email_key" = "Unbounded email";
+
+"Input contains Chinese characters_key" = "Input contains Chinese characters";
+
+"The function development_key" = "The function development";
+
+"Qr code format error_key" = "Qr code format error";
+
+"Please sweep the yard_key" = "Please sweep the yard";
+
+"Literature review_key" = "Literature review";
+
+"The information in the audit_key" = "The information in the audit";
+
+"Data has been sent_key" = "Data has been sent";
+
+"Information is under review_key" = "Information is under review";
+
+"Data is empty_key" = "Data is empty";
+
+"just_no_find" = " Sorry, I did not find the content that is in accordance with the added content! ";
+
+"just_create_sucees" = "Create success";
+
+"just_order_detail_chack" = "Please see the details in my order. ";
+
+"just_no_order" = " You do not have the order item, please go to the standard hall to receive the order ";
