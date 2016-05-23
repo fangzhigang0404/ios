@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageSetCell" id="gTV-IL-0wX" customClass="MPImageSetCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbH-xf-SiK" userLabel="Image">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                        <connections>
+                            <action selector="imageCellTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Tvf-z3-M0r"/>
+                        </connections>
+                    </button>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="photopicker_checked" translatesAutoresizingMaskIntoConstraints="NO" id="ZTC-Bc-pty" userLabel="Image Selected Indicator">
+                        <rect key="frame" x="120" y="0.0" width="30" height="30"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="hbH-xf-SiK" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Drm-ly-xX3"/>
+                <constraint firstItem="hbH-xf-SiK" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ey6-0V-9jV"/>
+                <constraint firstItem="hbH-xf-SiK" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Oaf-kr-4gr"/>
+                <constraint firstItem="hbH-xf-SiK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="P61-Oq-X6w"/>
+                <constraint firstItem="ZTC-Bc-pty" firstAttribute="height" secondItem="hbH-xf-SiK" secondAttribute="height" multiplier="0.25" id="RIh-fe-BFm"/>
+                <constraint firstAttribute="bottom" secondItem="hbH-xf-SiK" secondAttribute="bottom" id="Uys-2j-aS5"/>
+                <constraint firstAttribute="trailing" secondItem="hbH-xf-SiK" secondAttribute="trailing" id="abJ-N2-1c4"/>
+                <constraint firstAttribute="trailing" secondItem="ZTC-Bc-pty" secondAttribute="trailing" id="cAz-VN-MTu"/>
+                <constraint firstItem="ZTC-Bc-pty" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fs1-GF-x3v"/>
+                <constraint firstItem="hbH-xf-SiK" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="mZB-4d-7dc"/>
+                <constraint firstItem="ZTC-Bc-pty" firstAttribute="width" secondItem="hbH-xf-SiK" secondAttribute="width" multiplier="0.25" id="rua-Gn-baq"/>
+                <constraint firstItem="hbH-xf-SiK" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="voc-fG-vwN"/>
+            </constraints>
+            <size key="customSize" width="367" height="286"/>
+            <connections>
+                <outlet property="imageButton" destination="hbH-xf-SiK" id="Ckm-ir-QiR"/>
+                <outlet property="imageSelectedIndicatorView" destination="ZTC-Bc-pty" id="5CN-eq-XNy"/>
+            </connections>
+            <point key="canvasLocation" x="424" y="801"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="photopicker_checked" width="22" height="22"/>
+    </resources>
+</document>

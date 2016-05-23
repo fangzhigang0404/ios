@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MPSenddesigncontract">
+            <connections>
+                <outlet property="_mainViewContraint" destination="wu9-ou-3uS" id="Tac-ms-1q5"/>
+                <outlet property="_payButton" destination="x5h-FX-ZJR" id="f1W-Gg-bI1"/>
+                <outlet property="_readLabel" destination="aen-R7-BLj" id="ot9-sF-Ato"/>
+                <outlet property="_redioBtn" destination="u9Y-xM-ZNL" id="oXq-nv-48J"/>
+                <outlet property="mainView" destination="Z3Y-1p-MQB" id="PrA-TT-FyB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9Y-xM-ZNL">
+                    <rect key="frame" x="8" y="486" width="22" height="22"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="c3t-hU-jS6"/>
+                        <constraint firstAttribute="width" constant="22" id="cpq-ii-XOZ"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="Nosele">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="Sele"/>
+                    <state key="highlighted" image="RadioButton-Selected"/>
+                    <connections>
+                        <action selector="COntractBtn:" destination="-1" eventType="touchUpInside" id="Koh-6T-CAi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5h-FX-ZJR">
+                    <rect key="frame" x="8" y="515" width="304" height="45"/>
+                    <color key="backgroundColor" red="0.60000002384185791" green="0.60000002384185791" blue="0.60000002384185791" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="4dQ-2c-kjN"/>
+                    </constraints>
+                    <state key="normal" title="立即付款">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="PayBtn:" destination="-1" eventType="touchUpInside" id="ACs-EZ-ayQ"/>
+                    </connections>
+                </button>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z3Y-1p-MQB">
+                    <rect key="frame" x="0.0" y="64" width="320" height="414"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                </webView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我已阅读合同所有内容" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aen-R7-BLj">
+                    <rect key="frame" x="36" y="487" width="276" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="KxY-93-rZd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="u9Y-xM-ZNL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="6Ic-oS-Fob"/>
+                <constraint firstAttribute="trailing" secondItem="Z3Y-1p-MQB" secondAttribute="trailing" id="GO8-yp-nfb"/>
+                <constraint firstItem="Z3Y-1p-MQB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Hww-Re-mIP"/>
+                <constraint firstItem="x5h-FX-ZJR" firstAttribute="top" secondItem="u9Y-xM-ZNL" secondAttribute="bottom" constant="7" id="Khu-X1-Yv4"/>
+                <constraint firstItem="Z3Y-1p-MQB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="Si5-nk-i0d"/>
+                <constraint firstAttribute="trailing" secondItem="x5h-FX-ZJR" secondAttribute="trailing" constant="8" id="d6J-kE-OjK"/>
+                <constraint firstAttribute="trailing" secondItem="aen-R7-BLj" secondAttribute="trailing" constant="8" id="dfv-RX-19p"/>
+                <constraint firstItem="aen-R7-BLj" firstAttribute="leading" secondItem="u9Y-xM-ZNL" secondAttribute="trailing" constant="6" id="g9U-9C-HIv"/>
+                <constraint firstItem="x5h-FX-ZJR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="n0M-45-WhQ"/>
+                <constraint firstAttribute="bottom" secondItem="x5h-FX-ZJR" secondAttribute="bottom" constant="8" id="t7g-h1-ANt"/>
+                <constraint firstAttribute="bottom" secondItem="Z3Y-1p-MQB" secondAttribute="bottom" constant="90" id="wu9-ou-3uS"/>
+                <constraint firstItem="x5h-FX-ZJR" firstAttribute="top" secondItem="aen-R7-BLj" secondAttribute="bottom" constant="7" id="yX0-UM-W8c"/>
+            </constraints>
+            <point key="canvasLocation" x="651" y="309"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Nosele" width="15" height="15"/>
+        <image name="RadioButton-Selected" width="20" height="21"/>
+        <image name="Sele" width="15" height="15"/>
+    </resources>
+</document>

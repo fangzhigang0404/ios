@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "元"; ObjectID = "0Ga-qb-yAf"; */
+"0Ga-qb-yAf.text" = "yuan";
+
+/* Class = "UIButton"; normalTitle = "银行"; ObjectID = "0dL-Pn-yjR"; */
+"0dL-Pn-yjR.normalTitle" = "";
+
+/* Class = "UILabel"; text = "银行卡号："; ObjectID = "2bY-A9-gvr"; */
+"2bY-A9-gvr.text" = "Card Number：";
+
+/* Class = "UILabel"; text = "¥14,800"; ObjectID = "6Gd-PN-L1q"; */
+"6Gd-PN-L1q.text" = "";
+
+/* Class = "UIButton"; normalTitle = "确认并提交"; ObjectID = "78p-wo-rL6"; */
+"78p-wo-rL6.normalTitle" = "Confirm and Submit";
+
+/* Class = "UILabel"; text = "¥14,800"; ObjectID = "7Fs-wq-1DQ"; */
+"7Fs-wq-1DQ.text" = "";
+
+/* Class = "UILabel"; text = "持卡人姓名："; ObjectID = "8it-We-feA"; */
+"8it-We-feA.text" = "Card Holder：";
+
+/* Class = "UIButton"; normalTitle = "更换银行卡"; ObjectID = "Bbf-Nn-Wjs"; */
+"Bbf-Nn-Wjs.normalTitle" = "Replace the card";
+
+/* Class = "UILabel"; text = "支行名称："; ObjectID = "CNJ-kq-o7d"; */
+"CNJ-kq-o7d.text" = "Subbranch：";
+
+/* Class = "UILabel"; text = "开户银行："; ObjectID = "KXe-54-c7d"; */
+"KXe-54-c7d.text" = "Bank：";
+
+/* Class = "UILabel"; text = "账户余额："; ObjectID = "Vs7-bj-rF1"; */
+"Vs7-bj-rF1.text" = "Balance：";
+
+/* Class = "UILabel"; text = "提现余额："; ObjectID = "dp3-np-4tg"; */
+"dp3-np-4tg.text" = "Withdraw Balance：";
+
+/* Class = "UILabel"; text = "元"; ObjectID = "gw5-f9-qjD"; */
+"gw5-f9-qjD.text" = "yuan";

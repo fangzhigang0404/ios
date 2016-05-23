@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MPDecoPageView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCU-dE-X4t">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HCU-dE-X4t" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7aQ-Gd-N3X"/>
+                <constraint firstItem="HCU-dE-X4t" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CWe-c6-ybR"/>
+                <constraint firstAttribute="trailing" secondItem="HCU-dE-X4t" secondAttribute="trailing" id="fSS-28-g8U"/>
+                <constraint firstAttribute="bottom" secondItem="HCU-dE-X4t" secondAttribute="bottom" id="wED-BK-Ddf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="pageLabel" destination="HCU-dE-X4t" id="6GR-3y-eGk"/>
+            </connections>
+            <point key="canvasLocation" x="409" y="167.5"/>
+        </view>
+    </objects>
+</document>

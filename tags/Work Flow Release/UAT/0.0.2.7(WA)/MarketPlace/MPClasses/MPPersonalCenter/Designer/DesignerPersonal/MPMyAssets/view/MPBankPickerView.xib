@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MPBankPickerView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hKP-bn-yZl">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FoS-lc-fTD">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="93a-Qn-NY1"/>
+                                <constraint firstAttribute="width" constant="46" id="g4O-s4-k50"/>
+                            </constraints>
+                            <state key="normal" title="关闭"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="93a-Qn-NY1"/>
+                                    <exclude reference="g4O-s4-k50"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="93a-Qn-NY1"/>
+                                    <include reference="g4O-s4-k50"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="close:" destination="iN0-l3-epB" eventType="touchUpInside" id="upU-q8-nA5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXh-tJ-qnA">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="UON-vE-etd"/>
+                                <constraint firstAttribute="height" constant="30" id="x8h-9W-qdd"/>
+                            </constraints>
+                            <state key="normal" title="完成"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="UON-vE-etd"/>
+                                    <exclude reference="x8h-9W-qdd"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="UON-vE-etd"/>
+                                    <include reference="x8h-9W-qdd"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="done:" destination="iN0-l3-epB" eventType="touchUpInside" id="Su6-5a-71f"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="FoS-lc-fTD" firstAttribute="leading" secondItem="hKP-bn-yZl" secondAttribute="leading" constant="8" id="CIe-nK-gRb"/>
+                        <constraint firstAttribute="trailing" secondItem="rXh-tJ-qnA" secondAttribute="trailing" constant="8" id="GQH-gf-tnX"/>
+                        <constraint firstItem="rXh-tJ-qnA" firstAttribute="top" secondItem="hKP-bn-yZl" secondAttribute="top" constant="5" id="IoK-Ac-wUa"/>
+                        <constraint firstItem="FoS-lc-fTD" firstAttribute="top" secondItem="hKP-bn-yZl" secondAttribute="top" constant="5" id="PUc-XG-cJ4"/>
+                        <constraint firstAttribute="height" constant="40" id="jR8-6C-aNT"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="FoS-lc-fTD"/>
+                            <exclude reference="rXh-tJ-qnA"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="jR8-6C-aNT"/>
+                            <exclude reference="CIe-nK-gRb"/>
+                            <exclude reference="PUc-XG-cJ4"/>
+                            <exclude reference="GQH-gf-tnX"/>
+                            <exclude reference="IoK-Ac-wUa"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="FoS-lc-fTD"/>
+                            <include reference="rXh-tJ-qnA"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="jR8-6C-aNT"/>
+                            <include reference="CIe-nK-gRb"/>
+                            <include reference="PUc-XG-cJ4"/>
+                            <include reference="GQH-gf-tnX"/>
+                            <include reference="IoK-Ac-wUa"/>
+                        </mask>
+                    </variation>
+                </view>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ufY-BS-h8L">
+                    <rect key="frame" x="0.0" y="-216" width="320" height="216"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="220" id="dau-g5-UHa"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="dau-g5-UHa"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="dau-g5-UHa"/>
+                        </mask>
+                    </variation>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hKP-bn-yZl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4ZS-bH-SIz"/>
+                <constraint firstAttribute="trailing" secondItem="hKP-bn-yZl" secondAttribute="trailing" id="4u3-FU-qdR"/>
+                <constraint firstItem="ufY-BS-h8L" firstAttribute="top" secondItem="hKP-bn-yZl" secondAttribute="bottom" id="5VN-CU-zqe"/>
+                <constraint firstItem="hKP-bn-yZl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PJJ-QZ-vtc"/>
+                <constraint firstAttribute="trailing" secondItem="ufY-BS-h8L" secondAttribute="trailing" id="QUr-Ya-qYw"/>
+                <constraint firstItem="ufY-BS-h8L" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="R2z-Ix-jCF"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="hKP-bn-yZl"/>
+                    <exclude reference="ufY-BS-h8L"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="5VN-CU-zqe"/>
+                    <exclude reference="QUr-Ya-qYw"/>
+                    <exclude reference="R2z-Ix-jCF"/>
+                    <exclude reference="4ZS-bH-SIz"/>
+                    <exclude reference="4u3-FU-qdR"/>
+                    <exclude reference="PJJ-QZ-vtc"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="hKP-bn-yZl"/>
+                    <include reference="ufY-BS-h8L"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="5VN-CU-zqe"/>
+                    <include reference="QUr-Ya-qYw"/>
+                    <include reference="R2z-Ix-jCF"/>
+                    <include reference="4ZS-bH-SIz"/>
+                    <include reference="4u3-FU-qdR"/>
+                    <include reference="PJJ-QZ-vtc"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="bankSelPicker" destination="ufY-BS-h8L" id="7fS-By-Aao"/>
+            </connections>
+            <point key="canvasLocation" x="570" y="348"/>
+        </view>
+    </objects>
+</document>
